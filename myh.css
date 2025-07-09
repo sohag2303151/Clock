@@ -1,0 +1,51 @@
+#clockcontainer{
+
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+    background-color:aqua;
+    height: 40vw;
+    width:40vw;
+    background:url(download.jpeg) no-repeat ;
+    background-size: 100%;
+    
+    background-color: rgb(60, 70, 70);
+
+}
+
+#hour,#minitue,#second{
+    transform-origin: bottom;
+}
+
+
+#hour{
+    position: absolute;
+    background-color: aqua;
+    width: 1%;
+    height: 15%;
+    top: 35%;
+    left: 49.5%;
+    opacity: .5;
+}
+
+
+
+#minitue{
+      position: absolute;
+    background-color:red;
+    width: 1%;
+    height: 18%;
+    top: 32%;
+    left: 49.5%;
+    opacity: 0.8;
+}
+
+#second{
+    position: absolute;
+    background-color: purple;
+    width: 1%;
+    height: 28%;
+    top: 22%;
+    left: 49.5%;
+}
